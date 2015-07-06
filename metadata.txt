@@ -1,0 +1,37 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=AdminZoneKorea
+qgisMinimumVersion=2.3
+description=Provide Admin Zone of Korea
+version=0.1
+author=BJ Jang
+email=jangbi882@gmail.com
+
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=Admin Zone, Korea, Korean, Data
+
+homepage=http://geeps.krihs.re.kr/?wiki=AdminZoneKorea
+tracker=https://github.com/Gaia3D/AdminZoneKorea/issues
+repository=https://github.com/Gaia3D/AdminZoneKorea
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
